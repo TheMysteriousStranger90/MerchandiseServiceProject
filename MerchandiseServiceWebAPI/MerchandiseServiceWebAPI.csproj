@@ -11,6 +11,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\MerchandiseServiceHttpClients\MerchandiseServiceHttpClients.csproj" />
       <ProjectReference Include="..\MerchandiseServiceModels\MerchandiseServiceModels.csproj" />
     </ItemGroup>
 

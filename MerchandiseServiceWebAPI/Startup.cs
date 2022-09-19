@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MerchandiseServiceHttpClients;
+using MerchandiseServiceHttpClients.Interfaces;
 using MerchandiseServiceWebAPI.Services;
 using MerchandiseServiceWebAPI.Services.Interfaces;
 using Microsoft.AspNetCore.Builder;
@@ -31,6 +33,8 @@ namespace MerchandiseServiceWebAPI
             services.AddControllers();
             
             services.AddSingleton<IMerchandiseService,MerchandiseService>();
+
+            services.AddHttpClient<IMerchandiseHttpClient, MerchandiseHttpClient>();
             
             
             services.AddSwaggerGen(c =>
