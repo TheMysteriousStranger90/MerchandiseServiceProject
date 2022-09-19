@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchandiseServiceWebAPI", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchandiseServiceModels", "MerchandiseServiceModels\MerchandiseServiceModels.csproj", "{58A419DF-C433-4A55-8FEF-DC351D02FC19}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchandiseServiceHttpClients", "MerchandiseServiceHttpClients\MerchandiseServiceHttpClients.csproj", "{FF3C5371-D073-4612-8A48-D8B78D04E8EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -14,6 +16,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{331E5DC0-C97E-4E4F-BC49-0DC2E1F10D0E} = {BDAF0364-B81F-4CFB-9A03-5DD4963E4E0E}
 		{58A419DF-C433-4A55-8FEF-DC351D02FC19} = {BDAF0364-B81F-4CFB-9A03-5DD4963E4E0E}
+		{FF3C5371-D073-4612-8A48-D8B78D04E8EE} = {BDAF0364-B81F-4CFB-9A03-5DD4963E4E0E}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{331E5DC0-C97E-4E4F-BC49-0DC2E1F10D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -24,5 +27,9 @@ Global
 		{58A419DF-C433-4A55-8FEF-DC351D02FC19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58A419DF-C433-4A55-8FEF-DC351D02FC19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58A419DF-C433-4A55-8FEF-DC351D02FC19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF3C5371-D073-4612-8A48-D8B78D04E8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF3C5371-D073-4612-8A48-D8B78D04E8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF3C5371-D073-4612-8A48-D8B78D04E8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF3C5371-D073-4612-8A48-D8B78D04E8EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
