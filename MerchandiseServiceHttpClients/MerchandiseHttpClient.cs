@@ -19,17 +19,17 @@ namespace MerchandiseServiceHttpClients
         public async Task<GetMerchResponse> GetMerch(long employeeId, string itemName, CancellationToken token)
         {
             //throw new System.NotImplementedException();
-            
+
             using var response = await _httpClient.GetAsync("v1/api/merch", token);
             return await response.Content.ReadFromJsonAsync<GetMerchResponse>(cancellationToken: token);
         }
 
         public async Task<GetOrderStateResponse> GetMerchOrderState(long id, CancellationToken token)
         {
-           // throw new System.NotImplementedException();
-           
-           using var response = await _httpClient.GetAsync("v1/api/merch/check", token);
-           return await response.Content.ReadFromJsonAsync<GetOrderStateResponse>(cancellationToken: token);
+            // throw new System.NotImplementedException();
+
+            using var response = await _httpClient.GetAsync("v1/api/merch/check", token);
+            return await response.Content.ReadFromJsonAsync<GetOrderStateResponse>(cancellationToken: token);
         }
     }
 }

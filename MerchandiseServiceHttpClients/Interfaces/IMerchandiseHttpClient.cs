@@ -8,9 +8,10 @@ namespace MerchandiseServiceHttpClients.Interfaces
     public interface IMerchandiseHttpClient
     {
         [HttpGet("{id:long}/{itemName}")]
-        Task<GetMerchResponse> GetMerch([FromRoute] long employeeId, [FromRoute]string itemName, CancellationToken token);
-        
+        Task<GetMerchResponse> GetMerch([FromRoute] long employeeId, [FromRoute] string itemName,
+            CancellationToken token);
+
         [HttpGet]
-        Task<GetOrderStateResponse> GetMerchOrderState([FromQuery]long id, CancellationToken token);
+        Task<GetOrderStateResponse> GetMerchOrderState([FromQuery] long id, CancellationToken token);
     }
 }

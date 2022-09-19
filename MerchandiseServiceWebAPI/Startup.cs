@@ -34,7 +34,7 @@ namespace MerchandiseServiceWebAPI
             
             services.AddSingleton<IMerchandiseService,MerchandiseService>();
 
-            services.AddHttpClient<IMerchandiseHttpClient, MerchandiseHttpClient>();
+            //services.AddHttpClient<IMerchandiseHttpClient, MerchandiseHttpClient>();
             
             
             services.AddSwaggerGen(c =>

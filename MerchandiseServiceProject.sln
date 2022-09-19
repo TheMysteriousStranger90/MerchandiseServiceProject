@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchandiseServiceModels", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchandiseServiceHttpClients", "MerchandiseServiceHttpClients\MerchandiseServiceHttpClients.csproj", "{FF3C5371-D073-4612-8A48-D8B78D04E8EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchandiseServiceInfrastructure", "MerchandiseServiceInfrastructure\MerchandiseServiceInfrastructure.csproj", "{744AFB3A-C9B0-47AE-983E-00B484D7A3E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,5 +33,9 @@ Global
 		{FF3C5371-D073-4612-8A48-D8B78D04E8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF3C5371-D073-4612-8A48-D8B78D04E8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF3C5371-D073-4612-8A48-D8B78D04E8EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{744AFB3A-C9B0-47AE-983E-00B484D7A3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{744AFB3A-C9B0-47AE-983E-00B484D7A3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{744AFB3A-C9B0-47AE-983E-00B484D7A3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{744AFB3A-C9B0-47AE-983E-00B484D7A3E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
