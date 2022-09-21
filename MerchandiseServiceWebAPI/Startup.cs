@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using MerchandiseServiceHttpClients;
 using MerchandiseServiceHttpClients.Interfaces;
+using MerchandiseServiceInfrastructure.Extensions;
 using MerchandiseServiceWebAPI.Services;
 using MerchandiseServiceWebAPI.Services.Interfaces;
 using Microsoft.AspNetCore.Builder;
@@ -36,11 +37,8 @@ namespace MerchandiseServiceWebAPI
 
             //services.AddHttpClient<IMerchandiseHttpClient, MerchandiseHttpClient>();
             
+            //services.AddInfrastructure();
             
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "MerchandiseServiceWebAPI", Version = "v1" });
-            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
