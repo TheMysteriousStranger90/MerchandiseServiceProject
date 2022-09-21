@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchandiseServiceHttpClien
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchandiseServiceInfrastructure", "MerchandiseServiceInfrastructure\MerchandiseServiceInfrastructure.csproj", "{744AFB3A-C9B0-47AE-983E-00B484D7A3E7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MerchandiseServiceGrpc", "MerchandiseServiceGrpc\MerchandiseServiceGrpc.csproj", "{19835291-D641-4394-9A9C-6807F22CF964}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,8 @@ Global
 		{331E5DC0-C97E-4E4F-BC49-0DC2E1F10D0E} = {BDAF0364-B81F-4CFB-9A03-5DD4963E4E0E}
 		{58A419DF-C433-4A55-8FEF-DC351D02FC19} = {BDAF0364-B81F-4CFB-9A03-5DD4963E4E0E}
 		{FF3C5371-D073-4612-8A48-D8B78D04E8EE} = {BDAF0364-B81F-4CFB-9A03-5DD4963E4E0E}
+		{744AFB3A-C9B0-47AE-983E-00B484D7A3E7} = {BDAF0364-B81F-4CFB-9A03-5DD4963E4E0E}
+		{19835291-D641-4394-9A9C-6807F22CF964} = {BDAF0364-B81F-4CFB-9A03-5DD4963E4E0E}
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{331E5DC0-C97E-4E4F-BC49-0DC2E1F10D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -37,5 +41,9 @@ Global
 		{744AFB3A-C9B0-47AE-983E-00B484D7A3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{744AFB3A-C9B0-47AE-983E-00B484D7A3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{744AFB3A-C9B0-47AE-983E-00B484D7A3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19835291-D641-4394-9A9C-6807F22CF964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19835291-D641-4394-9A9C-6807F22CF964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19835291-D641-4394-9A9C-6807F22CF964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19835291-D641-4394-9A9C-6807F22CF964}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

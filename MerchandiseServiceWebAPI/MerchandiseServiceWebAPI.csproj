@@ -11,9 +11,15 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\MerchandiseServiceGrpc\MerchandiseServiceGrpc.csproj" />
       <ProjectReference Include="..\MerchandiseServiceHttpClients\MerchandiseServiceHttpClients.csproj" />
       <ProjectReference Include="..\MerchandiseServiceInfrastructure\MerchandiseServiceInfrastructure.csproj" />
+
       <ProjectReference Include="..\MerchandiseServiceModels\MerchandiseServiceModels.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Infrastructure" />
     </ItemGroup>
 
 </Project>
